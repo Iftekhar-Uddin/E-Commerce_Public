@@ -1,0 +1,51 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* .usertable{
+    @apply  border-black
+} */
+
+.usertable th{
+    @apply border text-base font-medium bg-slate-300
+}
+
+.usertable td{
+    @apply border text-base bg-slate-50
+}
+
+.scrollbar-none::-webkit-scrollbar{
+    display: none; /* chrome */
+}
+
+.scrollbar-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-auto::-webkit-scrollbar{
+    overflow: scroll;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d1d1d1;
+    border-radius: 2px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b1b1b1;
+}
